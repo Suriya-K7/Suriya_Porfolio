@@ -9,7 +9,7 @@ const Skills = () => {
         <>
             {skills.map(({ title, percentage }, index) => {
                 return (
-                    <Fade duration={500} direction="up">
+                    <Fade duration={500} direction="up" key={index}>
                         <Zoom>
                             <div className="progress__bar" key={index}>
                                 <Fade direction='500' cascade>
