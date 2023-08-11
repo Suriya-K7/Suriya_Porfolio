@@ -11,6 +11,10 @@ import * as Yup from "yup";
 import { motion, useScroll } from "framer-motion";
 
 const Contact = () => {
+  const SERVICE = import.meta.env.VITE_SERVICE;
+  const TEMPLETE = import.meta.env.VITE_TEMPLETE;
+  const PUBLIC = import.meta.env.VITE_PUBLIC;
+
   const form = useRef();
   const { scrollYProgress } = useScroll();
   const validate = Yup.object({
@@ -32,7 +36,7 @@ const Contact = () => {
   })
 
   const sendEmail = () => {
-    emailjs.sendForm('service_vf9pvao', 'template_w7ynt0c', form.current, '7Oiuvv6FXhdHoWf0J')
+    emailjs.sendForm(SERVICE, TEMPLETE, form.current, PUBLIC)
       .then((result) => {
         toast.success("Wow so easy, thank for contacting!");
         console.log(result);
