@@ -286,6 +286,60 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    img: Work7,
+    title: "Zen Dashboard",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Description : ",
+        desc: "Student dashboard for ZEN class, enabling students to attend classes, submit assignments, ask questions, and request leaves. Mentors can easily evaluate tasks using their login.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Zen-class-student-dashboard-frontend",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://zen-class-student-dashboard.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React, Nodejs, chartjs, formik, toastify ,ExpressJs, Bootstrap, Axios, CSS, NPM Packages, MongoDB, mongoose, nodemailer, JWT, bcrypt",
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work9,
+    title: "Share Space",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Description : ",
+        desc: "ShareSpace is a social media app for connecting with friends and sharing moments.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Share_Space_FE",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://social-share-space.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React, Nodejs, formik, ExpressJs, MUI, Axios, CSS, NPM Packages, MongoDB, mongoose, nodemailer, JWT, bcrypt",
+      },
+    ],
+  },
+  {
+    id: 3,
     img: Work1,
     title: "URL Shortner",
     details: [
@@ -307,46 +361,19 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Tech Used : ",
-        desc: "React, Nodejs, ExpressJs, Bootstrap, Axios, CSS, NPM Packages, MongoDB",
+        desc: "React, Nodejs,  formik, toastify ,ExpressJs, Bootstrap, Axios, CSS, NPM Packages, MongoDB, mongoose, nodemailer, JWT, bcrypt",
       },
     ],
   },
   {
-    id: 9,
-    img: Work9,
-    title: "Code-Pen Clone",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Creative SignIn Form",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Code : ",
-        desc: "https://github.com/Suriya-K7/React-Codepen-Practice",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://codepen-clone-sk7.netlify.app/",
-      },
-      {
-        icon: <FaCode />,
-        title: "Tech Used : ",
-        desc: "HTML, CSS",
-      },
-    ],
-  },
-  {
-    id: 2,
+    id: 4,
     img: Work2,
     title: "Library Hub",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Library Hub",
+        desc: "Library Hub: A front-end app for book management.",
       },
       {
         icon: <FiExternalLink />,
@@ -366,14 +393,14 @@ export const portfolio = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     img: Work3,
     title: "Task Creator",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Task Creator",
+        desc: "Task Creator: A React component for task assignment.",
       },
       {
         icon: <FiExternalLink />,
@@ -383,7 +410,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://alltimebest-task.netlify.app/",
+        desc: "https://alltimebest-task-manager.netlify.app/",
       },
       {
         icon: <FaCode />,
@@ -393,7 +420,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 9,
     img: Work4,
     title: "Todo App with MondoDB",
     details: [
@@ -420,7 +447,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     img: Work5,
     title: "Weather App",
     details: [
@@ -447,7 +474,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     img: Work6,
     title: "Expence Tracker",
     details: [
@@ -459,44 +486,17 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Code : ",
-        desc: "https://github.com/Suriya-K7/urlshortener-frontend-vite",
+        desc: "https://github.com/Suriya-K7/Mini_HTML_CSS_JS_Projects/tree/expense-track",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://income-expence-tracker-suriya-k7.netlify.app/",
+        desc: "https://expense-tracker-sk7.netlify.app/",
       },
       {
         icon: <FaCode />,
         title: "Tech Used : ",
         desc: "HTML, CSS, Javascript, DOM API",
-      },
-    ],
-  },
-  {
-    id: 7,
-    img: Work7,
-    title: "TodoApp (local storage)",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "TodoApp",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Code : ",
-        desc: "https://github.com/Suriya-K7/urlshortener-frontend-vite",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://to-do-list-suriya-k7.netlify.app/",
-      },
-      {
-        icon: <FaCode />,
-        title: "Tech Used : ",
-        desc: "HTML, CSS, JavaScript, DOM API",
       },
     ],
   },
@@ -513,12 +513,12 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Code : ",
-        desc: "https://github.com/Suriya-K7/urlshortener-frontend-vite",
+        desc: "https://github.com/Suriya-K7/Mini_HTML_CSS_JS_Projects/tree/animated-login",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://login-form-bg-animation-suriya-k7.netlify.app/",
+        desc: "https://animated-login-sk7.netlify.app/",
       },
       {
         icon: <FaCode />,
@@ -590,3 +590,60 @@ export const themes = [
     color: "hsl(42, 100%, 50%)",
   },
 ];
+
+/*
+  {
+    id: 7,
+    img: Work7,
+    title: "TodoApp (local storage)",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "TodoApp",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/urlshortener-frontend-vite",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://to-do-list-suriya-k7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "HTML, CSS, JavaScript, DOM API",
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work9,
+    title: "Code-Pen Clone",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Creative SignIn Form",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/React-Codepen-Practice",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://codepen-clone-sk7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "HTML, CSS",
+      },
+    ],
+  },
+*/
